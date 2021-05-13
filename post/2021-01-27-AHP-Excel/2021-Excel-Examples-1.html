@@ -1,0 +1,111 @@
+---
+title: "Spreadsheets for Quality Risk Management?"
+author: "Gregg Claycamp"
+date: '2021-01-13'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+subtitle: ''
+slug: Excel-examples
+summary: Microsoft Excel<sup>TM</sup> is perhaps the most common spreadsheet software on business desktops. Often it is the main tool for small businesses and a prototyping
+  and team- or division-based tool for larger business. Spreadsheet software offers
+  an easy way to control and automate repetitive processes from data collection to
+  knowledge management. Finally, Excel macros are a convenient framework for teaching
+  basic methods in decision analyis. Given its pros and cons, a spreadsheet can be
+  a useful tools for quality risk management operations and decisions.
+lastmod: '2021-01-13'
+featured: yes
+image:
+  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  placement: 3
+header:
+  image: null
+categories:
+- QRM
+- MCDA
+- Decision Analysis
+- Excel
+draft: yes
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+<link href="/rmarkdown-libs/lightable/lightable.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/dygraphs/dygraph.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/dygraphs/dygraph-combined.js"></script>
+<script src="/rmarkdown-libs/dygraphs/shapes.js"></script>
+<script src="/rmarkdown-libs/moment/moment.js"></script>
+<script src="/rmarkdown-libs/moment-timezone/moment-timezone-with-data.js"></script>
+<script src="/rmarkdown-libs/moment-fquarter/moment-fquarter.min.js"></script>
+<script src="/rmarkdown-libs/dygraphs-binding/dygraphs.js"></script>
+
+
+<div id="still-popular-after-all-these-years" class="section level2">
+<h2>Still Popular, after all these years…</h2>
+<p>Although data scientists and statisticians might groan at data automation and analysis using spreadsheet platforms, such as Excel<sup>TM</sup>, Google Sheets<sup>TM</sup> or others, the long-standing popularity of spreadsheet tools remains indisputable. Beginning with simple monochrome tables using Visicalc in 1979, the spreadsheet has evolved to a user-friendly interface for accounting tables, diverse analyses and dashboards for summaries of multiple lines sources of data. This fact and widespread availability in several formats keep the software popular for personal, business team and even enterprise IT solutions. Some reasons for the popularity of spreadsheets include their</p>
+<ul>
+<li><p>accessibility to non-data scientists and non-programmers;</p></li>
+<li><p>availability on most platforms including Windows, iOS, Android and cloud servers;</p></li>
+<li><p>portability–the same spreadsheet can be run independently on a laptop or launched on the internet;</p></li>
+<li><p>cell formulas, many of which are intuitive for basic math needs; and</p></li>
+<li><p>support from a large online community of spreadsheet users, consultants and software vendors.</p></li>
+</ul>
+<div class="figure">
+<img src="/img/2021-01-27-AHP-Excel/Visicalc.png" position="center" width="400" alt="" />
+<p class="caption"><strong>Fig. 1. Screenshot of Visicalc in 1979. About 20 rows in 4 columns were all that could be viewed in the typical, small monochrome monitor!</strong></p>
+</div>
+<p>A full-featured application, such as Excel, can also bridge many organizational needs from simple maintenance of a contacts list to an informative dashboard backed by automated data analysis (e.g., <a href="https://www.thesmallman.com/">TheSmallman.com</a>). It is apparent that some industries see a positive trend in using Excel dashboards to monitor key process indicators (KPIs) for the organization even if the dashboard is only a GUI for data from more sophisticated databases and statistical software.</p>
+<div class="figure">
+<img src="/img/2021-01-27-AHP-Excel/HR-Dashboard.jpg" position="center" width="600" alt="" />
+<p class="caption"><strong>Fig.2. A Random Example of a Dashboard</strong></p>
+</div>
+<p>Given the wide utility of (programmable) spreadsheets, motivated spreadsheet users can expect to find both room for growth and ample support developing deeper expertise using such tools. The remainder of this post will some limitations and uses of Excel for quality risk management (QRM) and QRM decision-making.</p>
+<blockquote>
+<p>Excel is not going anywhere, and businesses will continue to use Excel as a primary tool for diverse functions and applications ranging from IT projects to company picnics. <a href="https://www.investopedia.com/articles/personal-finance/032415/importance-excel-business.asp">Investopedia June 25, 2019</a></p>
+</blockquote>
+<div id="limitations-to-spreadsheet-software" class="section level3">
+<h3>Limitations to spreadsheet software</h3>
+<p>Given all the positives, why are data scientists, engineers and other “quants” so negative about spreadsheet tools? Many of the blog posts compare Excel or other spreadsheets with statistical software such as <a href="https://www.r-project.org/about.html">R</a>, <a href="https://www.sas.com" title="Statistical software - SAS">SAS</a>, <a href="https://www.tableau.com/">Tableau</a> or <a href="www.minitab.com">MiniTab</a>. But these comparisons are misleading because they are “apples-to-oranges” comparisons that do not often reflect the different types and needs of users. Although spreadsheets have impressive lists of built-in and add-in statistical functions, the spreadsheet platforms are far from being pre-programmed for descriptive, inferential and other statistical modeling that is found in advanced statistical packages. Second, rigorous quantitative solutions for business analysis and forecasting can be programmed in <a href="https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office">Visual Basic for Applications</a>, C# or C<sup>++</sup>, <a href="javascript.com">Javascript</a>, or <a href="https://www.typescriptlang.org/">Typescript</a>, all launched “behind” Excel. But compilation and deployment of programs in these languages tools can be daunting for the typical spreadsheet user and macro programmer. Third, program modules are difficult to manage in an enterprise IT organization and, (albeit in a shrinking number of cases), unsafe to share across the internet. Finally, spreadsheet programs typically run in a size-limited container making them unwieldy or even useless for a “big data” project. For example, the worksheet limit is 1,048,576 rows, although there are work-arounds using Excel’s data model tools (e.g, see: <a href="https://chandoo.org/wp/more-than-million-rows-in-excel/">How can You Analyze 1 mn Rows of Data - Excel Interview Question - 02</a> and below).</p>
+<iframe width="549" height="396" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=B16B51D1F70656AA%2169565&amp;authkey=%21AIVoxt7YVkR39Gk&amp;em=2&amp;wdAllowInteractivity=False&amp;Item=Chart%203&amp;wdDownloadButton=True&amp;wdInConfigurator=True">
+</iframe>
+</div>
+</div>
+<div id="spreadsheets-in-quality-risk-management" class="section level2">
+<h2>Spreadsheets in Quality Risk Management</h2>
+<p>Although QRM is a relatively new concept and practice, already there are numerous Excel and other spreadsheet apps, templates and add-ins that are applicable to QRM functions. For example, a Google search for “quality risk management” AND “Excel template” yields about 19,400 results!<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Given that QRM is a multidisciplinary blend from quality assurance, risk management and decision analysis, it is likely that most QRM spreadsheet apps come from modifications of the spreadsheets apps and templates in those disciplines. In essence, QRM spreadsheet apps and templates are a small subset of a vast set for more general quality management purposes.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<div id="comparing-spreadsheets-to-r-and-python" class="section level3" style="blue">
+<h3>Comparing Spreadsheets to R and Python</h3>
+<p>Perhaps the two most popular tools for data science are the open-source languages <a href="https://www.r-project.org/about.html">R</a> and <a href="https://www.python.org/">Python</a>. R is a statistical language program that is both free and easy to learn. Python is a free programming language that has a significant set of packages for data analysis and scientific computing. Both programs can “run anywhere” and they can be used with user-friendly integrated development environments (IDEs) such as <a href="rstudio.com">RStudio</a> for R and <a href="https://docs.python.org/3/library/idle.html">Idle</a> for python. For example, this blog and website are developed in RStudio using the R package, <a href="https://bookdown.org/yihui/blogdown/">blogdown</a>.</p>
+<p>In spite of apparent unpopularity for statistical programming and data chores, desktop spreadsheet software remains popular due to its broad accessibility to users. Not only are spreadsheet programs available on almost every desktop, laptop and tablet produced, but the documentation and training opportunities for beginning to advance users are ubiquitous. re</p>
+<p>Others’ opinion: <a href="https://martinctc.github.io/blog/my-favourite-alternative-to-excel-dashboards/#fn1" class="uri">https://martinctc.github.io/blog/my-favourite-alternative-to-excel-dashboards/#fn1</a></p>
+<p>vs Python <a href="https://www.nobledesktop.com/learn/python/python-vs-excel">Excel vs python</a></p>
+<p>Use python not excel :<a href="https://www.dataquest.io/blog/excel-vs-python/" class="uri">https://www.dataquest.io/blog/excel-vs-python/</a></p>
+<p><a href="https://www.northeastern.edu/graduate/blog/r-vs-excel/">R versus Excel: What’s the Difference</a></p>
+<p><a href="https://www.gapintelligence.com/blog/understanding-r-programming-over-excel-for-data-analysis/">Understanding R programming over Excel for Data Analysis</a></p>
+<p>Alternatives: DT <a href="https://rstudio.github.io/DT/">DataTables in the DT package</a></p>
+<p>flexDashboard R package <a href="https://rmarkdown.rstudio.com/flexdashboard/">flexDashboard</a></p>
+<p>excel not even mentioned in survey of BI tools: <a href="https://bi-survey.com/business-intelligence-software-comparison" class="uri">https://bi-survey.com/business-intelligence-software-comparison</a></p>
+</div>
+</div>
+<div id="a-basic-decision-matrix" class="section level2">
+<h2>A Basic Decision Matrix</h2>
+<p>We will develop a simple decision suitable as a foundation to multi-criteria decision analysis (MCDA). Decision matrices are a basic and intuitive approach to choosing one alternative among many based the performance of the alternative across the criteria. The matrix approach is useful for a range of simple decisions from personal to corporate choices. We will begin with a common decision of choosing a new car.</p>
+<p>For example, I might want to choose a new car based on some criteria, including <em>cost, safety, capacity, fuel economy</em> and <em>style</em>. Although there are possibly many more criteria that can be identified, an exhaustive list is not necessary for this example nor is it even helpful.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> The simplest way to organize the car choice example is to create a table having columns of the criteria and rows of cars (alternatives).</p>
+<pre class="r"><code>library(dygraphs)
+dygraph(nhtemp, main = &quot;New Haven Temperatures&quot;) %&gt;% dyRangeSelector(dateWindow = c(&quot;1920-01-01&quot;, 
+    &quot;1960-01-01&quot;))</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="dygraphs html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"attrs":{"title":"New Haven Temperatures","labels":["year","V1"],"legend":"auto","retainDateWindow":false,"axes":{"x":{"pixelsPerLabel":60}},"showRangeSelector":true,"dateWindow":["1920-01-01T00:00:00.000Z","1960-01-01T00:00:00.000Z"],"rangeSelectorHeight":40,"rangeSelectorPlotFillColor":" #A7B1C4","rangeSelectorPlotStrokeColor":"#808FAB","interactionModel":"Dygraph.Interaction.defaultModel"},"scale":"yearly","annotations":[],"shadings":[],"events":[],"format":"date","data":[["1912-01-01T00:00:00.000Z","1913-01-01T00:00:00.000Z","1914-01-01T00:00:00.000Z","1915-01-01T00:00:00.000Z","1916-01-01T00:00:00.000Z","1917-01-01T00:00:00.000Z","1918-01-01T00:00:00.000Z","1919-01-01T00:00:00.000Z","1920-01-01T00:00:00.000Z","1921-01-01T00:00:00.000Z","1922-01-01T00:00:00.000Z","1923-01-01T00:00:00.000Z","1924-01-01T00:00:00.000Z","1925-01-01T00:00:00.000Z","1926-01-01T00:00:00.000Z","1927-01-01T00:00:00.000Z","1928-01-01T00:00:00.000Z","1929-01-01T00:00:00.000Z","1930-01-01T00:00:00.000Z","1931-01-01T00:00:00.000Z","1932-01-01T00:00:00.000Z","1933-01-01T00:00:00.000Z","1934-01-01T00:00:00.000Z","1935-01-01T00:00:00.000Z","1936-01-01T00:00:00.000Z","1937-01-01T00:00:00.000Z","1938-01-01T00:00:00.000Z","1939-01-01T00:00:00.000Z","1940-01-01T00:00:00.000Z","1941-01-01T00:00:00.000Z","1942-01-01T00:00:00.000Z","1943-01-01T00:00:00.000Z","1944-01-01T00:00:00.000Z","1945-01-01T00:00:00.000Z","1946-01-01T00:00:00.000Z","1947-01-01T00:00:00.000Z","1948-01-01T00:00:00.000Z","1949-01-01T00:00:00.000Z","1950-01-01T00:00:00.000Z","1951-01-01T00:00:00.000Z","1952-01-01T00:00:00.000Z","1953-01-01T00:00:00.000Z","1954-01-01T00:00:00.000Z","1955-01-01T00:00:00.000Z","1956-01-01T00:00:00.000Z","1957-01-01T00:00:00.000Z","1958-01-01T00:00:00.000Z","1959-01-01T00:00:00.000Z","1960-01-01T00:00:00.000Z","1961-01-01T00:00:00.000Z","1962-01-01T00:00:00.000Z","1963-01-01T00:00:00.000Z","1964-01-01T00:00:00.000Z","1965-01-01T00:00:00.000Z","1966-01-01T00:00:00.000Z","1967-01-01T00:00:00.000Z","1968-01-01T00:00:00.000Z","1969-01-01T00:00:00.000Z","1970-01-01T00:00:00.000Z","1971-01-01T00:00:00.000Z"],[49.9,52.3,49.4,51.1,49.4,47.9,49.8,50.9,49.3,51.9,50.8,49.6,49.3,50.6,48.4,50.7,50.9,50.6,51.5,52.8,51.8,51.1,49.8,50.2,50.4,51.6,51.8,50.9,48.8,51.7,51,50.6,51.7,51.5,52.1,51.3,51,54,51.4,52.7,53.1,54.6,52,52,50.9,52.6,50.2,52.6,51.6,51.9,50.5,50.9,51.7,51.4,51.7,50.8,51.9,51.8,51.9,53]]},"evals":["attrs.interactionModel"],"jsHooks":[]}</script>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Retrieved 3/16/2021. This search does not filter for multiple hits on a single website.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>For example, a search of “spreadsheets for quality assurance” receives 2,790,000 hits! (Retrieved March 15, 2021).<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Keeney (1992) discusses the need to thoroughly identify possible alternatives in an important decision making process for important and complex decisions. But, listing every possible new car as an alternative would clearly be overkill for this decision problem. An intuitive process of applying criteria to create a shorter list is often used. For example, the cost of new cars can quickly shorten the list.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
