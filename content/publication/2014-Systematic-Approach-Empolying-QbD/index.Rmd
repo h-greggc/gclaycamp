@@ -1,0 +1,31 @@
+---
+title: 'A Systematic Approach of Employing Quality by Design Principles: Risk Assessment and Design of Experiments to Demonstrate Process Understanding and Identify the Critical Process Parameters for Coating of the Ethylcellulose Pseudolatex Dispersion Using Non-Conventional Fluid Bed Process'
+author: 
+  - Bhaveshkumar H Kothari
+  - Raafat Fahmy
+  - H Gregg Claycamp
+  - Christine M V Moore
+  - Sharmista Chatterjee
+  - Stephen W Hoag
+authors: ["Bhaveshkumar H Kothari", "Raafat Fahmy", "H Gregg Claycamp", "Christine M V Moore", "Sharmista Chatterjee", "Stephen W Hoag"]
+date: '2014-12-01'
+tags:
+  - QRM
+  - Quality Risk Management
+  - Quality by Design
+publishDate: '2014-09-02T00:00:00Z'
+publication_types: 
+  - '2'
+publication: "*AAPS PharmSciTech*"
+abstract: The goal of this study was to utilize risk assessment techniques and statistical design of experiments (DoE) to gain process understanding and to identify critical process parameters for the manufacture of controlled release multiparticulate beads using a novel disk-jet fluid bed technology. The material attributes and process parameters were systematically assessed using the Ishikawa fish bone diagram and failure mode and effect analysis (FMEA) risk assessment methods. The high risk attributes identified by the FMEA analysis were further explored using resolution V fractional factorial design. To gain an understanding of the processing parameters, a resolution V fractional factorial study was conducted. Using knowledge gained from the resolution V study, a resolution IV fractional factorial study was conducted; the purpose of this IV study was to identify the critical process parameters (CPP) that impact the critical quality attributes and understand the influence of these parameters on film formation. For both studies, the microclimate, atomization pressure, inlet air volume, product temperature (during spraying and curing), curing time, and percent solids in the coating solutions were studied. The responses evaluated were percent agglomeration, percent fines, percent yield, bead aspect ratio, median particle size diameter (d50), assay, and drug release rate. Pyrobuttons® were used to record real-time temperature and humidity changes in the fluid bed. The risk assessment methods and process analytical tools helped to understand the novel disk-jet technology and to systematically develop models of the coating process parameters like process efficiency and the extent of curing during the coating process.  
+
+
+featured: false
+url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4309813/pdf/12249_2014_Article_180.pdf
+
+---
+
+{{% alert note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /alert %}}
+
