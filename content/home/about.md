@@ -19,5 +19,5 @@ title: Bio
 # See https://wowchemy.com/docs/get-started/#introduce-yourself
 author: admin
 
-image: "static/img/bubbles-wide.jpg"  # Name of image in `static/img/`
+image: "bubbles-wide.jpg"  # Name of image in `static/img/`
 ---

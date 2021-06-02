@@ -7,8 +7,9 @@
 
 theme: ocean
 day_night: true
-font: minimal
+font: h-gregg
 font_size: L
+font: 'h-gregg'
 
 # SEO
 
@@ -58,7 +59,7 @@ contact_links:
 main_menu:
   enable: true
   align: l
-  show_logo: false
+  show_logo: true
   show_language: false
   show_day_night: true
   show_search: true
