@@ -1,6 +1,6 @@
 ---   
 title: "The Basics of MCDA"
-author: "Gregg Claycamp"
+author: admin
 date: '2020-08-18'
 categories:
 - MCDA
@@ -11,7 +11,7 @@ subtitle: Part 1 of 4
 summary: Multi-criteria decision analysis is a collection of tools that can help individuals
   and teams to make better decisions
 lastmod: '2020-08-18T17:17:31-05:00'
-featured: no
+featured: false
 image:
   caption: ''
   focal_point: ''

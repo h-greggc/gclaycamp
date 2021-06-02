@@ -1,24 +1,283 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uncertainty | Gregg Claycamp</title>
-    <link>http://Gclaycamp.com/category/uncertainty/</link>
-      <atom:link href="http://Gclaycamp.com/category/uncertainty/index.xml" rel="self" type="application/rss+xml" />
-    <description>Uncertainty</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(c) 2021 H.G. Claycamp </copyright><lastBuildDate>Fri, 01 Sep 2006 00:00:00 +0000</lastBuildDate>
+    <title>uncertainty | Gregg Claycamp</title>
+    <link>https://gclaycamp.com/category/uncertainty/</link>
+      <atom:link href="https://gclaycamp.com/category/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    <description>uncertainty</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(c) 2021 H.G. Claycamp </copyright><lastBuildDate>Thu, 21 Aug 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://Gclaycamp.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>Uncertainty</title>
-      <link>http://Gclaycamp.com/category/uncertainty/</link>
+      <url>https://gclaycamp.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>uncertainty</title>
+      <link>https://gclaycamp.com/category/uncertainty/</link>
     </image>
     
     <item>
+      <title>Defining Objectives for Team Decisions</title>
+      <link>https://gclaycamp.com/post/2020-08-24-finding-the-decision-objectives/defining-the-objectives/</link>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://gclaycamp.com/post/2020-08-24-finding-the-decision-objectives/defining-the-objectives/</guid>
+      <description>&lt;style type=&#34;text/css&#34;&gt;
+
+  h1{ padding: 20px !important;
+      margin: 0px !important;
+      line-height: 45px;
+      font-size: 45px;
+    }
+&lt;/style&gt;
+
+
+
+&lt;h1 id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a href=&#34;#introduction&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;This post is about the need for working groups and teams to define their decision objectives whenever the decision is important for accomplishing the group’s goals. Group decision making is where “a group of two or more individuals must collectively select an alternative from a set of two or more alternatives that best satisfies the group’s objectives, and no individual has veto power” (Keeney 2013). Important decisions are typicallly complex, having multiple objective and subjective attributes that serve as criteria for choosing the among two or many alternatives. The process of multicriteria decision making (MCDM) is well suited for finding an objective solution for complex decisions. Although the first step in MCDM or MCDA processes is to clearly define the overall objective that the decision maker or decision making group wishes to accomplish, it is often a neglected or poorly executed. Here, I discuss signs and symptoms of a weak MCDM process due to inattention to defining a clear objective.&lt;/p&gt;
+
+
+
+&lt;h1 id=&#34;clear-decision-objectives-are-essential&#34;&gt;
+  Clear Decision Objectives are Essential
+  &lt;a href=&#34;#clear-decision-objectives-are-essential&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;Sometimes weeks or months into a team’s decision making process, debate around the meaning of the decision objective(s) arises possibly stalling the team’s progress. Essentially, different perceptions about the charge among team members creates uncertainty around the team’s decision-making purpose or even the question, “why are we here?” The team’s uncertainty can feed on itself until the team finds it necessary to request tath the decision owner restate her objective(s) to the working group. In other situations, the decision making team might reach a decision recommendation under an &lt;em&gt;assumed&lt;/em&gt; shared understanding of the objectives only to be told that from the decision owner’s perspective, the team answered the &lt;em&gt;wrong question&lt;/em&gt;! If this is a frequent occurrence, the organization will soon have only reluctant volunteers for &lt;em&gt;ad hoc&lt;/em&gt; and resilience and efficiency of the organization can be adversely impacted.&lt;/p&gt;
+&lt;p&gt;“The achievement of objectives is the sole reason for being interested in any decision.” (see (Keeney 1992); p. 55). Keeney’s succinct statement or similar statements appear frequently in decades of MCDM literature. Yet I believe that many decision coaches and advisers will report that the most common problem in an individual’s or team’s decision making process is the lack of clearly-stated decision objectives. The decision objective(s)–the *reason(s) for the decision—*are sometimes not carefully articulated even for critical tactical and strategic decisions. The results of MCDM in the absence of a clear objective is often disappointment and frustration with formal decision making processes.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;everyone-knows-the-objective&#34;&gt;
+  Everyone knows the objective!
+  &lt;a href=&#34;#everyone-knows-the-objective&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Think about your experience working in groups or teams who are charged with finding solutions to complex problems, such as developing new information or prioritizing among projects in the organization’s tactical plan. Did the group discuss and articulate the main objective, or was the objective “handed down” from the decision owner (e.g., senior management) in the form of a committee charge or a problem statement? The decision objective(s) might be well understood and part of both the culture and business process in most routine decisions. But novel scenarios lead to top-down decision objectives that can be nuanced and vague due to a manager’s concern for appearing to dictate a decision process and–worse–the choice. These are the team decision making scenarios that we are most interested in understanding and improving, so-called “Category II” decisions that are “nonroutine, nonrecurring and uncertain of outcome”(Harrison 1999). The remainder of this blog post focuses on the difficult, multicriteria and sometimes, multi-objective, decisions that take us hours, weeks and even years to decide. In those “stuck” decisions, a clear articulation of the decision objectives is crucial to achieve a lasting and satisfying team decision.
+I will return to these explanations along with others after first reviewing the elelments of a complex team decision and decision making process.&lt;/p&gt;
+
+
+
+&lt;h1 id=&#34;decision-making-by-teams&#34;&gt;
+  Decision making by teams
+  &lt;a href=&#34;#decision-making-by-teams&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;The team’s work is focused around specific tasks typically organized on a strategic objective.&lt;/p&gt;
+&lt;p&gt;Important decisions, whether at the board, managerial, or operational level, are often accomplished by groups of decision makers. (I will refer to these decision making groups as “teams” whether or not they are either standing or &lt;em&gt;ad hoc&lt;/em&gt; teams.) Examples of team decision making are very diverse including decisions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;within strategic planning,&lt;/li&gt;
+&lt;li&gt;selecting a leadership candidate,&lt;/li&gt;
+&lt;li&gt;choosing supplier(s),&lt;/li&gt;
+&lt;li&gt;choosing new sites and&lt;/li&gt;
+&lt;li&gt;prioritizing risk management resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depending on a team’s function, their decisions can be thought of as either strategic or tactical. Although strategic decisions might follow a formalized decision making process including a facilitator or decision coach, tactical decisions, such as “choose a new supplier,” likely rely on informal team decision making. In other instances, a tactical team might be charged by a manager with advising management on choosing a new site or even allocating resources for risk and quality manufacturing. Such decisions benefit from–if not &lt;em&gt;require&lt;/em&gt;–a more formal decision making process.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;team-composition&#34;&gt;
+  Team composition
+  &lt;a href=&#34;#team-composition&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Teams are comprised of individuals who are likely to have a differing perspectives on the problem at hand. Although increasing the team size for diversity of experience, knowledge, disciplines and skills among members can improve the generation of decision objectives and alternatives, it comes at a cost of decreasing individual participation in the exercise (Chapman 1998).&lt;/p&gt;
+&lt;p&gt;Complex decisions have both &lt;em&gt;objective&lt;/em&gt; and &lt;em&gt;subjective&lt;/em&gt; inputs, sometimes many alternatives and conflicting attributes. Describing an individual’s preferences among for how objective and subjective inputs factor into a final choice–given uncertainties–is the subject of classical decision analysis. But classical decision analysis is difficult to extend to several or many decision makers. Nevertheless, useful concepts from decision analysis inform analogous processes in team-based MCDM. This is supported by a significant body of empirical reports on “what works” in group decision making. Finally, the applicability of methods, such as MCDA, to group decision making has fueled a nearly exponential growth in tools and applications since the 1990s.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;more-data-for-decision-making&#34;&gt;
+  More data for decision making?
+  &lt;a href=&#34;#more-data-for-decision-making&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Modern organizations have remarkable access to data and knowledge management tools which can be used to inform both strategic and tactical decisions including the allocation of resources to address risk. Although data and knowledge management contribute to reducing uncertainty in decision making, they neither define nor eliminate uncertainties and risks impacting the achievement of a desired objectives. multicriteria decision analysis (MCDA) has evolved as a structured way to define decision objectives and combine the various inputs into objectively quantifying the decision.&lt;/p&gt;
+&lt;p&gt;It is paradoxical that greater accessibility to data and information can both complicate and improve team decision making. A few keystrokes in a contemporary internet search can lead to hundreds of pages of data and information about buying cars. Although the volume of information can be daunting, in fact, thoughtful analysis of the information likely improves the quality of decision making by reducing uncertainty. The volumes and different types of information make MCDM challenging enough for a single decision-maker; and, adding multiple decision makers to the process only amplifies the complexity. As Keeney outlined across multiple publications, the reasons for inherent complexity include (Keeney 2004, 2012):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Team members view their common decision differently;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Even if the team agrees on the alternatives and consequences, the members may assign different chances to events;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consensus or similar shared decision policies mean that team member’s perspectives of the decision and evaluation of the alternatives must be incorporated in the overall decision.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Proponents of multicriteria decision analysis argue that many of the challenges within group decision making can be overcome by following processes that have their roots in applied decision analysis, such as the ProACT procedures (Hammond, Keeney, and Raiffa 2002) and value-focused thinking (Keeney 1992) discussed in the following paragraphs.&lt;/p&gt;
+&lt;p&gt;There are many “how-to” books in the trade and peer-review literature discussing individual decision making. One of the most useful and accessible books is &lt;em&gt;Smart Choices&lt;/em&gt; (Hammond, Keeney, and Raiffa 2002). The book is an excellent introduction to decision making with multiple criteria. The authors recommended a “ProACT/URL” process for these difficult decisions as described in the following table.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pr&lt;/strong&gt;oblem&lt;/td&gt;
+&lt;td&gt;Work on the right decision problem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;O&lt;/strong&gt;bjective&lt;/td&gt;
+&lt;td&gt;Specify your objectives&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;A&lt;/strong&gt;lternatives&lt;/td&gt;
+&lt;td&gt;Create Imaginative alternatives&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;C&lt;/strong&gt;onsequences&lt;/td&gt;
+&lt;td&gt;Understand the consequences&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;rade-offs&lt;/td&gt;
+&lt;td&gt;Grapple with your trade-offs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uncertainty&lt;/td&gt;
+&lt;td&gt;Clarify your uncertainties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Risk tolerance&lt;/td&gt;
+&lt;td&gt;Think hard about your risk tolerance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Linked decisions&lt;/td&gt;
+&lt;td&gt;Consider linked decisions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Table 1. The PrOACT/URL approach to decision making by (Hammond, Keeney, and Raiffa 2002).&lt;/p&gt;
+&lt;p&gt;Less complex decisions might be accomplished following only the &lt;strong&gt;PrOACT&lt;/strong&gt; process while more complex decisions include assessing uncertainties, risk tolerance of the decision maker and whether or not the decision is linked to other decisions. Adding these features is the source of the complete acronym, “ProACT/URL.”&lt;/p&gt;
+&lt;p&gt;Detailed discussions and reviews of MCDM are widely available (MCA; Keeney; von Winterfelt; others).A generalized process for muulticriteria decision analysis (MCDA), perhaps the most common methodology for MCDM, is given here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify and clearly define objectives&lt;/li&gt;
+&lt;li&gt;Identify alternatives for achieving the objectives&lt;/li&gt;
+&lt;li&gt;Identify the criteria and attributes to be used to compare the alternatives&lt;/li&gt;
+&lt;li&gt;Analyze the alternatives and uncertainties: (“modeling” the decision)&lt;/li&gt;
+&lt;li&gt;Make choice or prioritize options&lt;/li&gt;
+&lt;li&gt;Examine results and establish a follow-up period.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This general procedure has been slightly adapted for risk-focused prioritization used in projects i led or facilitated at FDA and NIH (Fig. 1).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gclaycamp.com/img/Risk-Focused-Prioritization.png&#34; data-position=&#34;center&#34; width=&#34;600&#34; height=&#34;600&#34; alt=&#34;Fig. 1. A typical multicriteria decision analysis (MCDA) process.&#34; /&gt;:&lt;/p&gt;
+
+
+
+&lt;h1 id=&#34;understanding-the-objectives&#34;&gt;
+  Understanding the Objectives
+  &lt;a href=&#34;#understanding-the-objectives&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;It should come as no surprise that a group of experts who are diverse in their training and experience will perceive stated objectives differently. For nearly a century psychologists, decision scientists and economists have studied the inevitable intrusion of our subjective, perceiving minds into what is optimistically believed to be an objective decision making process (Kahneman 2011; Sunstein et al. 2002; Ariely 2009; Kahneman, Slovic, and Tversky 1982). Our internal processing of decision objectives is so individualized that we have trouble analyzing other perceptions among the the group. After a career’s worth of troubleshooting complex decisions and scholarship in decision analysis, Ralph Keeney recently recommend that groups not work through objectives and preference together until each member has defined the problem individually (Keeney 2013).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gclaycamp.com/img/stratplanning-post-it.jpg&#34; data-position=&#34;right&#34; width=&#34;500&#34; height=&#34;500&#34; alt=&#34;Photo by Daria Nepriakhina on Unsplash.com&#34; /&gt;:&lt;/p&gt;
+&lt;p&gt;The fundamental objectives of the decision capture the reason(s) we are deciding choosing among two or more alternatives (–sometimes known as choices; options). The fundamental objectives are no less important to a decision than are clearly stated and testable hypotheses to a high-quality research design. Even decisions in our personal lives have objectives that a perceived differently by individuals. For example, how many ways might an objective, “achieve personal satisfaction in my career,” be perceived and defined among even a small number of individuals?&lt;/p&gt;
+
+
+
+&lt;h1 id=&#34;pressure-to-produce-tangible-results&#34;&gt;
+  Pressure to Produce Tangible Results
+  &lt;a href=&#34;#pressure-to-produce-tangible-results&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;Objectives can be parsed into “fundamental objectives” and “means-ends objectives.”(Keeney 1992) The former captures the goal(s) of the decision while the latter states ways in which the goals might be achieved. For example, the fundamental objective of “increase supplier audits by 10%” could have an underlying means-end objectives, “hire more auditing staff” and “contract more auditors.” These “actionable” objectives are means to support the achievement of the fundamental objective of increasing audits. Often, the urge to produce “tangible results” for our an organization shifts the focus to defining means-ends objectives: asking an expert group (e.g.), “how do we evaluate information for the decision?” Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it would be otherwise.&lt;/p&gt;
+
+
+
+&lt;h1 id=&#34;structured-approaches&#34;&gt;
+  Structured Approaches?
+  &lt;a href=&#34;#structured-approaches&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;When Keeney wrote the paragraph (above) in 1992, he was correct in noting the lack of structured approaches for thinking critically through multicriteria decisions. Two decades later, we have witnessed an exponential growth in research and application of multicriteria decision analysis (MCDA) of which Keeney’s “value-focused thinking” is one of the “best practices.” There are numerous examples of MCDA from the government and industry health care that translate efficiently to processes accessible to scientists and clinicians. The structured approaches are now available, and all that remains is the will to implement them. The will to implement MCDA will come from the realization that decision making is an acquired skill based on fundamental decision theory and practice. “Better Blog Tools Create a post Manage posts Manage comments Launch blog program to post The Objectives: Making Decisions Matter - Risk and Decisions Blog Page 1 of 2 decision makers” come from practicing the learned skills. (Keeney, RL 2004, Making better decision makers. Decision Analysis 1(4): 193-204).&lt;/p&gt;
+&lt;p&gt;SAVED: Keeney ((Keeney 2004)) offers several explanations for this predicament, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;decision makers do not understand their objectives well&lt;/li&gt;
+&lt;li&gt;decision makers are routinely under time pressure to produce tangible results&lt;/li&gt;
+&lt;li&gt;lack of structured approaches to promote systematic and deep thinking about objectives.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;h1 id=&#34;references&#34;&gt;
+  References
+  &lt;a href=&#34;#references&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-Ariely2009&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Ariely, Dan. 2009. &lt;em&gt;Predictably Irrational&lt;/em&gt;. Harper-Collins eBooks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Chapman-RJ1998&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Chapman, R. J. 1998. “&lt;span class=&#34;nocase&#34;&gt;The effectiveness of working group risk identification and assessment techniques&lt;/span&gt;.” &lt;em&gt;International Journal of Project Management&lt;/em&gt; 13 (6): 333–43.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Hammond2002&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Hammond, J S, R L Keeney, and H Raiffa. 2002. &lt;em&gt;&lt;span class=&#34;nocase&#34;&gt;Smart Choices. A Practical Guide to Making Better Decisions&lt;/span&gt;&lt;/em&gt;. Book. Paperback; New York: Broadway Books.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Harrison1999&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Harrison, E. Frank. 1999. &lt;em&gt;The Managerial Decision-Making Process&lt;/em&gt;. Fifth.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kahneman2011&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kahneman, D. 2011. &lt;em&gt;Thinking, Fast and Slow&lt;/em&gt;. Farrar, Straus; Giroux.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kahneman1982&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kahneman, D, P Slovic, and A Tversky. 1982. &lt;em&gt;Judgments Under Uncertainty: Heuristics and Biases&lt;/em&gt;. Cambridge University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Keeney1992&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Keeney, R L. 1992. &lt;em&gt;Value-Focused Thinking&lt;/em&gt;. Book. Cambridge University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Keeney2004&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;———. 2004. “&lt;span class=&#34;nocase&#34;&gt;Making better decision makers&lt;/span&gt;.” Journal Article. &lt;em&gt;Decision Analysis&lt;/em&gt; 1 (4): 193–204.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Keeney2012&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;———. 2012. “&lt;span class=&#34;nocase&#34;&gt;Value-focused brainstorming&lt;/span&gt;.” Journal Article. &lt;em&gt;Decision Analysis&lt;/em&gt; 9 (4): 303–13.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Keeney2013&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;———. 2013. “Foundations for Group Decision Analysis.” &lt;em&gt;Decision Analysis&lt;/em&gt; 10: 103–20.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Sunstein2002&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Predictably Incoherent Judgments.” &lt;em&gt;Stanford Law Review&lt;/em&gt; 54: 1153–1215.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Risk, uncertainty, and process analytical technology</title>
-      <link>http://Gclaycamp.com/publication/2006-risk-pat/</link>
+      <link>https://gclaycamp.com/publication/2006-risk-pat/</link>
       <pubDate>Fri, 01 Sep 2006 00:00:00 +0000</pubDate>
-      <guid>http://Gclaycamp.com/publication/2006-risk-pat/</guid>
+      <guid>https://gclaycamp.com/publication/2006-risk-pat/</guid>
       <description>
-&lt;script src=&#34;http://Gclaycamp.com/publication/2006-risk-pat/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gclaycamp.com/publication/2006-risk-pat/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;

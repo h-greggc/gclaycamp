@@ -19,7 +19,7 @@ publication_types:
 publication: "*Drug Information Journal* **41**:353–367"
 abstract: Quality risk management for the pharmaceutical industry was recently defined in internationally harmonized guidance as a systematic process for the assessment, control, communication, and review of risks to the quality of the drug product across the product life cycle. Two overarching principles for quality risk  management are that evaluations of risk should be scientifically based and ultimately linked to risk to the patient, and the level of effort and documentation of quality risk management processes should be commensurate with the level of risk. Numerous tools for risk management come from other applied sciences and manufacturing having a longer history of risk management. The degree of quantitative sophistication among tools varies from generalized and qualitative, “high-level” tools to computationally rigorous, “low-level,” quantitative tools. Risk is described in recent guidance as a combination of the probability of occurrence of harm and the severity of that harm. Risk management always comes with uncertainty, given that it calls for  projections of the likelihood of adverse events for given severities. As a relatively new application of risk management, quality risk management can benefit from adapting existing theory and practice to pharmaceutical manufacturing.   
 
-featured: false
+featured: true
 
 url_pdf: "pdf/Claycamp-DIA.pdf"
 ---

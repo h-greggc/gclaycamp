@@ -4,7 +4,7 @@
 widget: blank
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -29,14 +29,15 @@ design:
 ---
 
 Welcome to the demo of the **academic resumé template** for Wowchemy, the Website Builder for Hugo.
-
+ 
 [Explore similar templates](https://wowchemy.com/templates/)
 
-**Over 500,000 [Amazing Websites](https://wowchemy.com/) have Already Been Built with Wowchemy**
+ **Over 500,000 [Amazing Websites](https://wowchemy.com/) have Already Been Built with Wowchemy**
 
-**[Join](https://wowchemy.com/templates/) the Most Empowered Hugo Community**
+ **[Join](https://wowchemy.com/templates/) the Most Empowered Hugo Community**
 
-{{% callout note %}}
+ {{% callout note %}}
+ 
 This homepage section is an example of adding [elements](https://wowchemy.com/docs/content/writing-markdown-latex/) to the [*Blank* widget](https://wowchemy.com/docs/getting-started/page-builder/).
 
 Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
