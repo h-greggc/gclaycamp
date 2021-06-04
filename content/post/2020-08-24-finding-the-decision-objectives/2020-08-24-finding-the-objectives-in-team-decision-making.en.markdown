@@ -50,6 +50,13 @@ bibliography: library-2020-02-05.bib
       font-size: 35px;
   }
   
+  .myDiv {
+  background-color: lightblue;    
+  text-align: left;
+  padding=10px;
+  line-height: 20px;
+}
+  
 </style>
 
 # 1 Introduction
@@ -82,7 +89,12 @@ The management, economics and psychology literature have also contributed much r
 
 > Objectives, which underlie the effective management of any type of formal organization, are not abstractions. They are the commitments to action through which the mission of the organization is carried out, and they are the standards against which the performance of management is measured. (Harrison 1999, 43)
 
-<img src="/img/ObjectiveandLocus.png" data-position="center" width="700" alt="Fig. 1. A view of the dominant responsibility for objectives/decisions process." />**Fig. 1. A view of the dominant responsibility for objectives/decisions process.** For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.
+<img src="/img/ObjectiveandLocus.png" title="fig:" data-position="center" width="700" alt="Fig. 1. A view of the dominant responsibility for objectives/decisions process." />
+<figcaption>
+<font size="3"><strong>Fig. 1. A view of the dominant responsibility for objectives/decisions process.</strong> For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.<br><br>
+</figcaption>
+
+<font size="4">
 
 Often, the urge to produce “tangible results” for an organization shifts the focus to defining means-ends objectives: asking an expert group (e.g.), “how do we evaluate information for the decision?” Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise.
 
@@ -152,7 +164,11 @@ Detailed discussions and reviews of MCDM are widely available (MCA; Keeney; von 
 
 This general procedure has been slightly adapted for risk-focused prioritization used in projects I either led or facilitated at FDA and NIH (Fig. 1).
 
-![Fig. 1. A typical multicriteria decision analysis (MCDA) process.](/img/Risk-Focused-Prioritization.png)Risk-Focused Prioritization Process:
+<span width="75%">
+![Fig. 1. A typical multicriteria decision analysis (MCDA) process.](/img/Risk-Focused-Prioritization.png) <font size="3"> **Fig. 3. Risk-Focused Prioritization Process**
+</font>
+</span>
+&lt; img src=“/img/Risk-Focused-Prioritization.png” title=“Risk-Focused Prioritization” &gt;
 
 # 4 Understanding the Objectives
 

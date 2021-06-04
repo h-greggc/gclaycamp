@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gclaycamp.com/courses/example/python/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/courses/example/visualization/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/courses/example/stats/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gclaycamp.com/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
@@ -20,20 +11,14 @@
     <loc>https://gclaycamp.com/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gclaycamp.com/courses/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/courses/example/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gclaycamp.com/publication-type/0/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/categories/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-18T09:11:55-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/category/mcda/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/publication/conference-paper/more-decision-analysis/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
@@ -45,7 +30,7 @@
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/post/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-18T09:11:55-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/category/covid-19/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
@@ -54,16 +39,16 @@
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/tag/mcda/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-18T17:17:31-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/category/pandemic/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/category/qrm/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-18T17:17:31-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/tags/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-18T17:17:31-05:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/post/2020-08-18-the-basics-of-mcda-part-1/the-basics-of-mcda-part-1/</loc>
     <lastmod>2020-08-18T17:17:31-05:00</lastmod>
@@ -111,10 +96,10 @@
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/tag/quality-risk-management/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/category/quality-risk-management/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/tag/uncertainty/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
@@ -218,21 +203,6 @@
     <loc>https://gclaycamp.com/author/stephen-w.-hoag/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gclaycamp.com/post/2020-08-24-finding-the-decision-objectives/defining-the-objectives/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/tag/mcdm/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/category/project-teams/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/category/uncertainty/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gclaycamp.com/category/working-paper/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gclaycamp.com/tag/expert-elicitation/</loc>
     <lastmod>2012-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -267,6 +237,9 @@
     <lastmod>2006-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/publication/2006-risk-pat/</loc>
+    <lastmod>2006-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gclaycamp.com/category/uncertainty/</loc>
     <lastmod>2006-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/author/b.-hasselbalch/</loc>
@@ -312,6 +285,8 @@
     <lastmod>1992-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gclaycamp.com/admin/</loc>
+  </url><url>
+    <loc>https://gclaycamp.com/courses/</loc>
   </url><url>
     <loc>https://gclaycamp.com/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
