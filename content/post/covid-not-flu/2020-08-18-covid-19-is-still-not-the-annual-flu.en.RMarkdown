@@ -5,7 +5,7 @@ date: '2021-05-20'
 output:
   blogdown::html_page:
     number_sections: true
-    toc_depth: 2
+    toc_depth: 1
 toc: true    
 slug: covid-not-flu
 summary: The coronavirus pandemic of COVID-19 is often compared with recent pandemics
