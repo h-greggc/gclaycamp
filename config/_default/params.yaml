@@ -7,9 +7,7 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
-  
-  day_night: true
-  font: h-gregg
+
   font_size: M
   font: 'h-gregg'
 
