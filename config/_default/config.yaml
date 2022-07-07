@@ -33,6 +33,17 @@ enableGitInfo: true
 summaryLength: 30
 paginate: 10
 enableEmoji: true
+
+############################
+## Security err work-around
+############################
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_  
+
+############################
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
