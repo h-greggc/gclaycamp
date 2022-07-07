@@ -1,9 +1,0 @@
-theme: "starter-academic"
-baseURL: https://gclaycamp.com/
-languageCode: en-us
-title: Gregg Claycamp
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
