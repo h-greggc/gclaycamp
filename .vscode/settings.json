@@ -1,0 +1,34 @@
+{
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "content",
+            "path": "[[workspace]]/content"
+        }
+    ],
+    "frontMatter.taxonomy.tags": [
+        "A",
+        "C",
+        "D",
+        "Decision analysis",
+        "Demo",
+        "M",
+        "MCDA",
+        "MCDM",
+        "Other",
+        "QRM",
+        "Quality Risk Management",
+        "Source Themes"
+    ],
+    "frontMatter.taxonomy.categories": [
+        "Decision Analysis",
+        "Excel",
+        "MCDA",
+        "QRM",
+        "Quality Risk Management",
+        "Working Paper",
+        "project teams",
+        "uncertainty"
+    ]
+}
