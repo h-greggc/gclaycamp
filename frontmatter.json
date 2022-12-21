@@ -45,5 +45,37 @@
         }
       ]
     }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.taxonomy.categories": [
+    "Decision Analysis",
+    "Excel",
+    "MCDA",
+    "QRM",
+    "Quality Risk Management",
+    "Working Paper",
+    "project teams",
+    "uncertainty"
+  ],
+  "frontMatter.taxonomy.tags": [
+    "A",
+    "C",
+    "D",
+    "Decision analysis",
+    "Demo",
+    "M",
+    "MCDA",
+    "MCDM",
+    "Other",
+    "QRM",
+    "Quality Risk Management",
+    "Source Themes"
   ]
 }
