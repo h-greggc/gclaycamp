@@ -10,7 +10,7 @@ headless: true
 weight: 120
 
 title: Popular Topics
-subtitle: ''
+subtitle: 'View in tag cloud'
 
 content:
 # Choose the taxonomy from `config.toml` to display (e.g. tags, categories)
