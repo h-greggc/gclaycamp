@@ -50,7 +50,7 @@ subtitle = "Examples of Past and Ongoing Work"
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 3  
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -62,11 +62,12 @@ subtitle = "Examples of Past and Ongoing Work"
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+    color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+    gradient_start = "navy"
+    gradient_end = "SkyBlue"
+    gradient_angle = 270
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.

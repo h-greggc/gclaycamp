@@ -1,14 +1,15 @@
----
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+---   
+# Documentation-- https://sourcethemes.com/academic/docs/managing-content/
 
-title: "{{ replace .Name "-" " " | title }}"
+title: {{ replace .Name "-" " " | title }}
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
+tags: ""
+categories: ""
+
 featured: false
 draft: false
 disable_jquery: false
@@ -26,5 +27,6 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ""
+
 ---

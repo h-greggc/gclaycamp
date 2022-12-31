@@ -7,6 +7,13 @@ weight = 40  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
+# background color
+  color = "navy"
+
+# Gradient background
+    gradient_start = "blue"
+    gradient_end = "SkyBlue"
+    gradient_angle = 270
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

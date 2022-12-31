@@ -30,13 +30,13 @@ education:
   courses:
   - course: PhD in Radiological Health Engineering 
     institution: Northwestern University
-    year: 1982
+    year: 
   - course: MS in Radiological Health Engineering
     institution: Northwestern University
-    year: 1977
+    year: 
   - course: AB in Human Biology
     institution: Stanford University
-    year: 1974
+    year: 
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

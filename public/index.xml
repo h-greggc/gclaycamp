@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gregg Claycamp</title>
+    <link>https://www.gclaycamp.com/</link>
+      <atom:link href="https://www.gclaycamp.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gregg Claycamp</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(c) 2022 H.G. Claycamp </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.gclaycamp.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Gregg Claycamp</title>
+      <link>https://www.gclaycamp.com/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://www.gclaycamp.com/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>More Decision Analysis</title>
+      <link>https://www.gclaycamp.com/publication/conference-paper/more-decision-analysis/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/conference-paper/more-decision-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 is Not Just Like the Annual Flu</title>
+      <link>https://www.gclaycamp.com/post/covid-not-flu/covid-not-flu/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/post/covid-not-flu/covid-not-flu/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Over the six months of the coronavirus pandemic in the US, I have had many casual conversations with strangers or family in which the individual suggests that “COVID-19 is just like an annual flu.” This notion is far from the truth even in the face of a general similarity that they are both respiratory infections. In this post I compare quantitative features of
+COVID-19 with H1N1 and other flu-like illnesses, Ebola virus disease (EVD), and SARS to show differences between COVID-19 and the flu. Of course, this is not the first time these comparisons have been made in public media; rather, this post is only my perspective on the issue.&lt;/p&gt;
+&lt;p&gt;There are several ways in which the ongoing COVID-19 pandemic and some recent other pandemics can be compared. Sometimes, the endpoints for comparing the pandemic are cherry-picked to support the individual’s or organization’s purpose. But generally speaking, quantitative comparisons of pandemics begin using fundamental measures, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the number of cases,&lt;/li&gt;
+&lt;li&gt;the number of deaths, and&lt;/li&gt;
+&lt;li&gt;the population size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Although these pandemic measures start with the seemingly simple process of counting cases and deaths, the luxury of that simplicity is seldom achievable. Each numerical comparison is nuanced and sometimes even specific to &lt;em&gt;which&lt;/em&gt; outbreak of complex disease. The field of epidemiology–the study of diseases in populations–uses these fundamental measures to derive more specific measures of incidence, prevalence, and risk (Below). Trained infectious disease scientists and clinicians seldom made casual comparisons using only the above terms, but instead, carefully state the assumptions and possibly caveats necessary to make scientifically valid comparisons using an array of terms. For this post, we’ll assume that such simplifying assumptions and caveats could be easily resolved.&lt;/p&gt;
+&lt;div id=&#34;comparing-the-number-of-cases&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Comparing the number of cases&lt;/h2&gt;
+&lt;p&gt;The number of cases (“case counts”) is a basic measure used to routinely monitor diseases in addition to detecting an emerging epidemic disease.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; The following figure (Fig.1) shows the worldwide case counts for the past SARS, EVD and H1N1 (Swine Flu) outbreaks and the ongoing COVID-19 pandemic. Note that the horizontal axis is a logarithmic scale, e.g., moving in powers of 10 (10, 100, 1000, 10000, …). If not shown that way, the tens of millions of cases in COVID-19 and H1N1 would visually swamp the &lt;em&gt;thousands-fold&lt;/em&gt; fewer cases of Ebola and SARS. (You would need a very wide monitor to display the graph!)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.gclaycamp.com/post/covid-not-flu/2020-08-18-covid-19-is-still-not-the-annual-flu.en_files/figure-html/plotbarcase-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;death-counts-tell-a-different-story&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Death Counts Tell a Different Story&lt;/h2&gt;
+&lt;p&gt;The total deaths due to the outbreaks are shown in Fig. 2. Here I dropped the log scale to show the dramatic differences among the past and ongoing outbreaks. For example, the SARS outbreak from a coronavirus, disappears as a significant cause of worldwide mortality.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.gclaycamp.com/post/covid-not-flu/2020-08-18-covid-19-is-still-not-the-annual-flu.en_files/figure-html/plotbardeath-1.png&#34; width=&#34;672&#34; /&gt;
+The data reported during and after an outbreak is likely to include the &lt;em&gt;proportion&lt;/em&gt; of cases or deaths in the population. Sometimes these proportions are called the “normalized cases (or deaths).” At the simplest level, these proportions are simply the number of cases/deaths divided by the size of the population of concern. Because populations of interest in epidemiology are often large, the ratio is adjusted to the “number of cases/deaths per 100,000 in the population.” For example, if we found 200 cases in a population of 250,000 people, the normalized cases are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ 
+N^*=\frac{200 \ cases}{250,000 \ people}=0.0008
+\]&lt;/span&gt;
+This mathematical result, while certainly correct, leaves us with trying to imagine a 0.0008 illness. Thus, we can bring the proportion back to the realm of whole people by multiplying the proportion by 100,000:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+n^*=0.0008 \ times \ 100000 = 80\ cases \ per \ 100,000 \ people
+\]&lt;/span&gt;
+“Normalizing” the case/death counts by population size makes sense for the comparison of the intensity of an outbreak from one administrative boundary to the next. For example, if the administrative boundary is &#34; county&#34; and the example is compared with a second county also having 200 cases of disease but a population size of 1M, then the normalized comparison is 80 versus 20 cases per 100,000. Clearly, the counties that were apparently equal in case counts now are 4-fold different in the normalized case counts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;higher-order-measures-in-outbreaks&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Higher Order Measures in Outbreaks&lt;/h2&gt;
+&lt;p&gt;The base counts are seldom sufficient for making comparisons among outbreaks and pandemics. For example, if we look at only total case counts, then we have only a cumulative counting measure that begins at the index (first) case and ends some period of time later when no new cases are observed. But the rate of accumulation of new cases might be more relevant to public health planning because it informs the rate at which health services will be needed for case management. There are several higher order or &lt;em&gt;derived&lt;/em&gt; measures of an outbreak that are more useful for understanding not only the population disease process itself, but also the possible demand on health care resources. Such derived measures include, among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;incidence (incidence rate; incidence proportion)&lt;/li&gt;
+&lt;li&gt;prevalence&lt;/li&gt;
+&lt;li&gt;person-years at risk&lt;/li&gt;
+&lt;li&gt;case fatality ratio&lt;/li&gt;
+&lt;li&gt;infectivity&lt;/li&gt;
+&lt;li&gt;virulence&lt;/li&gt;
+&lt;li&gt;modes of transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A short blog is not suited for carefully defining all of these terms and then using them to compare outbreaks. I recommend online sources including basic epidemiology text published by CDC.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; We will continue our simplified comparison of outbreaks with only a few key measures.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comparing-the-case-fatality-ratios&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Comparing the case fatality ratios&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html&#34;&gt;&lt;em&gt;case fatality proportion&lt;/em&gt;&lt;/a&gt; (also called the case fatality &lt;em&gt;ratio&lt;/em&gt; or &lt;em&gt;rate&lt;/em&gt;) is a basic measure of great importance in infectious disease epidemiology. The measure gets right to the point of, “how lethal is this disease?” It is typically defined as the number of cases of a disease that end in death from a specific cause divided by the total number of cases of that disease in a defined population. This endpoint is used colloquially to express the risk of death, &lt;em&gt;given that the individual has the disease&lt;/em&gt;. In other words, what percentage of true cases are expected to die? Using the case fatality ratio (CFR) is where the comparisons of the major outbreaks is turned on its head: now, the relatively low risk of having Ebola virus disease (EVD) looks much worse because, given the patient has EVD, the likelihood of death is about 40%! By comparison, the relative chance of death, given an H1N1 infection is 400 times less than the risk of death from EVD. We will visit more characteristic of case fatality ratios in a later post; but for now, look at Fig. 3 for the remarkable differences among the CFRs the pandemics in question.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.gclaycamp.com/post/covid-not-flu/2020-08-18-covid-19-is-still-not-the-annual-flu.en_files/figure-html/uscases-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-comparisons&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Comparisons&lt;/h2&gt;
+&lt;div id=&#34;infectivity-and-modes-of-transmission&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Infectivity and Modes of Transmission&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Infectivity&#34;&gt;Viral infectivity&lt;/a&gt; is the ability of a pathogen to establish infection. Virulence is a measure that is really at the interface between the environment–air, water, other fluids and solid surfaces–and the host. In other words, if the viral particles are in the air that the host breathes, what is the likelihood that the host will be infected? Viral infectivity is correlated (positive) with the virulence of the virus. Although we might attempt to compare the infectivity of the three outbreaks in the abstract, in fact, the modes of transmission are different, complicating a simple comparison. The coronavirus causing SARS and COVID-19 are clearly transmitted primarily by inhalation of contaminated air, whereas the infection by Ebola virus is through contact with bodily fluids, tissues and contaminated surfaces from an EVD patient.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;derived-measures&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Derived measures&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Prevalence&lt;/em&gt; and &lt;em&gt;incidence&lt;/em&gt; are two classical epidemiology measurements that are derived from the number of cases or deaths. The first of these–prevalence– is the proportion of cases in a defined population at a fixed time point. The “defined population” is central to both the epidemiology of a single outbreak and the comparison of different outbreaks and from possibly different viruses. Defined population can be based on administrative boundaries, e.g., the population within a county, state, country or continent; or, the definition might be a specific age group with other characteristics. The wide range of possible definition makes prevalence-based a potential minefield of errors.&lt;/p&gt;
+&lt;p&gt;The incidence or &lt;em&gt;incidence rate&lt;/em&gt; of disease is also difficult to use in comparisons across types of outbreaks. Incidence refers to the number of new cases in a defined population of susceptible hosts over a set period of time (e.g., “per year”). Incidence rates suffer from the same challenges of the related prevalence of disease.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outbreak-measures-can-and-do-change&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Outbreak measures can and do change&lt;/h2&gt;
+&lt;p&gt;While it might appear that the fundamental measurements in epidemiology, cases and deaths, can be easily tallied, in fact the &lt;em&gt;true&lt;/em&gt; number of cases/deaths in an outbreak can be difficult to obtain and might not even be known for several years after the outbreak!&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; This happens because the signs and symptoms for many infectious diseases are overlapping, and might even overlap with those of the infected person’s pre-existing conditions. If there is no way to clearly identify the infectious agent, then the clinician diagnoses the disease by comparing with a current knowledge base of signs and symptoms. With a novel disease like COVID-19, the scientific and regulatory communities will debate the exact definition of a COVID-19 case in the midst of the pandemic because the “recognized” signs and symptoms are likely to change with more experience.&lt;/p&gt;
+&lt;p&gt;In conclusion, I have shown that just a few simplistic comparisons using basic epidemiologic measures can easily dispel the notion that the ongoing COVID-19 pandemic is “just like the annual flu.” A deeper dive into the specifics of infectivity, virulence, age-dependency and co-morbidities would take volumes to discuss in even moderate depth. More importantly, the knowledge base on COVID-19 is rapidly evolving due to the efforts of scientists and public health officials to gather and share data. As Dr. &lt;a href=&#34;https://www.niaid.nih.gov/about/director&#34;&gt;Anthony Fauci&lt;/a&gt; remarked recently, understanding the long-term effects of COVID-19 is a “work in progress.”&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Both chronic and infectious diseases are counted on a regular basis as part of public health risk management. The CDC website has a good explanation of surveillance: &lt;a href=&#34;https://www.cdc.gov/chronicdisease/data/surveillance.htm&#34;&gt;CDC Surveillance&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/index.html&#34;&gt;Principles of Epidemiology in Public Health Practice, Third edition&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;For example, the total cases in the H1N1 influenza (2009) cases are still uncertain a decade after the outbreak.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.cnn.com/world/live-news/coronavirus-pandemic-08-19-20-intl/h_24a802929c742bc3facdb547684b2645&#34;&gt;CNN&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Basics of MCDA</title>
+      <link>https://www.gclaycamp.com/post/2020-08-18-the-basics-of-mcda-part-1/the-basics-of-mcda-part-1/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/post/2020-08-18-the-basics-of-mcda-part-1/the-basics-of-mcda-part-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QRM Tools</title>
+      <link>https://www.gclaycamp.com/project/qrm-tools/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/project/qrm-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Residues Book</title>
+      <link>https://www.gclaycamp.com/project/residues-book/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/project/residues-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://www.gclaycamp.com/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/slides/example/</guid>
+      <description>
+
+
+&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;
+  Create slides in Markdown with Wowchemy
+  &lt;a href=&#34;#create-slides-in-markdown-with-wowchemy&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;features&#34;&gt;
+  Features
+  &lt;a href=&#34;#features&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;controls&#34;&gt;
+  Controls
+  &lt;a href=&#34;#controls&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;
+  Code Highlighting
+  &lt;a href=&#34;#code-highlighting&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;math&#34;&gt;
+  Math
+  &lt;a href=&#34;#math&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;fragments&#34;&gt;
+  Fragments
+  &lt;a href=&#34;#fragments&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   **Two** 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three 
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;
+  Speaker Notes
+  &lt;a href=&#34;#speaker-notes&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;themes&#34;&gt;
+  Themes
+  &lt;a href=&#34;#themes&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;
+  Custom Slide
+  &lt;a href=&#34;#custom-slide&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+
+
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;
+  Custom CSS Example
+  &lt;a href=&#34;#custom-css-example&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+
+
+
+&lt;h1 id=&#34;questions&#34;&gt;
+  Questions?
+  &lt;a href=&#34;#questions&#34;&gt;
+    &lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+  &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Controlling Subjectivity in Risk Decision-Making: The Benefits of Multicriteria Decision Analysis</title>
+      <link>https://www.gclaycamp.com/publication/2018-controlling-subjectivity/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2018-controlling-subjectivity/</guid>
+      <description> 
+
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2018-controlling-subjectivity/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic’s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Probability Concepts in Quality Risk Management</title>
+      <link>https://www.gclaycamp.com/publication/2011-probability-concepts-in-qrm/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2011-probability-concepts-in-qrm/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2011-probability-concepts-in-qrm/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic’s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prince of Peace Lutheran Church</title>
+      <link>https://www.gclaycamp.com/project/website-1/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/project/website-1/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/project/website-1/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>The risk of trusting priority numbers</title>
+      <link>https://www.gclaycamp.com/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2017-risk-of-trusting-priority-numbers/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Residues Shiny R App</title>
+      <link>https://www.gclaycamp.com/project/residues-app/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/project/residues-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://www.gclaycamp.com/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Systematic Approach of Employing Quality by Design Principles: Risk Assessment and Design of Experiments to Demonstrate Process Understanding and Identify the Critical Process Parameters for Coating of the Ethylcellulose Pseudolatex Dispersion Using Non-Conventional Fluid Bed Process</title>
+      <link>https://www.gclaycamp.com/publication/2014-systematic-approach-empolying-qbd/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2014-systematic-approach-empolying-qbd/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2014-systematic-approach-empolying-qbd/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quality-by-Design III: Application of Near-Infrared Spectroscopy to Monitor Roller Compaction In-process and Product Quality Attributes of Immediate Release Tablets</title>
+      <link>https://www.gclaycamp.com/publication/2018-quality-by-design-iii/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2018-quality-by-design-iii/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2018-quality-by-design-iii/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quality-by-Design II: Application of Quantitative Risk Analysis to the Formulation of Ciprofloxacin Tablets</title>
+      <link>https://www.gclaycamp.com/publication/2016-quality-by-design-ii/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2016-quality-by-design-ii/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2016-quality-by-design-ii/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Quality by design I: application of failure mode effect analysis (FMEA) and Plackett-Burman design of experiments in the identification of “main factors” in the formulation and process design space for roller-compacted ciprofloxacin hydrochloride immediate-release tablets.</title>
+      <link>https://www.gclaycamp.com/publication/2013-quality-by-design-i/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2013-quality-by-design-i/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2013-quality-by-design-i/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The reliability-quality relationship for quality systems and quality risk management</title>
+      <link>https://www.gclaycamp.com/publication/2012-reliability-quality-relationship-qrm/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2012-reliability-quality-relationship-qrm/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic’s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
+      <link>https://www.gclaycamp.com/publication/2007-perspective-on-qrm/</link>
+      <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2007-perspective-on-qrm/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2007-perspective-on-qrm/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic’s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Risk, uncertainty, and process analytical technology</title>
+      <link>https://www.gclaycamp.com/publication/2006-risk-pat/</link>
+      <pubDate>Fri, 01 Sep 2006 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2006-risk-pat/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2006-risk-pat/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
+      <link>https://www.gclaycamp.com/publication/2005-elicitation-expert-knowledge/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2005-elicitation-expert-knowledge/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2005-elicitation-expert-knowledge/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antimicrobial Resistance Risk Assessment in Food Safety</title>
+      <link>https://www.gclaycamp.com/publication/2004-arra/</link>
+      <pubDate>Wed, 01 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/2004-arra/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/2004-arra/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Phenol sensitization of DNA to subsequent oxidative damage in 8-hydroxyguanine assays</title>
+      <link>https://www.gclaycamp.com/publication/1992-8ohdg-phenol/</link>
+      <pubDate>Wed, 01 Jul 1992 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/publication/1992-8ohdg-phenol/</guid>
+      <description>
+&lt;script src=&#34;https://www.gclaycamp.com/publication/1992-8ohdg-phenol/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.gclaycamp.com/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.gclaycamp.com/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

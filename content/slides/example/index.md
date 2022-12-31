@@ -4,7 +4,7 @@ categories: []
 date: "2019-02-05T00:00:00Z"
 slides:
   highlight_style: dracula
-  theme: black
+  theme: simple
 summary: An introduction to using Wowchemy's Slides feature.
 tags: []
 title: Slides
@@ -105,6 +105,7 @@ Press the `S` key to view the speaker notes!
 {{< speaker_note >}}
 - Only the speaker can read these notes
 - Press `S` key to view
+- Even more notes...
 {{< /speaker_note >}}
 
 ---

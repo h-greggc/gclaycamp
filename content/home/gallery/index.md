@@ -11,7 +11,7 @@ active: false
 weight: 66
 
 title: Gallery
-subtitle:
+subtitle: Some of my portfolio
 ---
 
 {{< gallery >}}

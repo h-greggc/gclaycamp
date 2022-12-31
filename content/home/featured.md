@@ -9,10 +9,18 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 81
 
 title: Featured Publications
 subtitle: ""
+
+# Background color  
+color: "navy" 
+
+# Gradient background
+gradient_start: "blue"
+gradient_end: "SkyBlue"
+gradient_angle: 270
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -34,5 +42,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 3
 ---

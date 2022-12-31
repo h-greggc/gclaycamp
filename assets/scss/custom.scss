@@ -14,13 +14,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.04em;
   color: #172A3A;
 }
+h1 {
+  font-size: 2.0rem;
+}
 
 /* links */
 
 a:active, 
 a:focus, 
 a:hover {
-  color: #004346;
+  color: #0b14c3;
 }
 
 /* nav */
@@ -31,8 +34,8 @@ a:hover {
 }
 
 .navbar {
-  box-shadow: none;
-  text-transform: uppercase;
+  box-shadow: small;
+  text-transform: capitalize ;
 	letter-spacing: .1em;
 	font-size: .9em;
 }
@@ -51,7 +54,7 @@ a:hover {
 .navbar-nav a.nav-link,
 .navbar-nav a.nav-link:after,
 .navbar-nav a.nav-link:before {
-  transition: all .5s;
+  transition: all .2s;
 }
 
 .navbar-nav a.nav-link {
@@ -125,7 +128,7 @@ pre, code {
 
 pre {
   border: 1px solid #fff;
-  box-shadow: 5px 5px 5px #eee;
+  box-shadow: 5px 5px 5px rgb(40, 39, 39);
   padding: 0.25em;
   background: #fff;
   overflow-x: auto;
