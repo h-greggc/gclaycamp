@@ -13,7 +13,7 @@ subtitle = ""
 # Gradient background
     gradient_start = "blue"
     gradient_end = "SkyBlue"
-    gradient_angle = 270
+    gradient_angle = 180
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
