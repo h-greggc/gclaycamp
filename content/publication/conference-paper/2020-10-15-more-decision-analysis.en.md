@@ -1,33 +1,36 @@
 ---
-title: More Decision Analysis
-author: admin
-date: '2020-10-15'
-slug: more-decision-analysis
-categories: 
- - MCDA
-tags: []
-authors: 
-doi: ''
-publishDate: '2020-10-15T15:35:32-05:00'
 publication_types:
-  - '0'
-publication: ''
-publication_short: ''
-abstract: ''
-summary: ''
+  - "0"
+  - "3"
+authors: null
+publication: ""
+publication_short: ""
+abstract: ""
+draft: false
+slides: ""
+url_pdf: null
+summary: ""
+url_dataset: null
+url_project: null
+url_source: null
+author: admin
+url_video: null
+slug: more-decision-analysis
+title: More Decision Analysis
+doi: ""
 featured: no
-url_pdf: ~
-url_code: ~
-url_dataset: ~
-url_poster: ~
-url_project: ~
-url_slides: ~
-url_source: ~
-url_video: ~
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
+tags: []
+categories:
+  - MCDA
 projects: []
-slides: ''
+image:
+  caption: Science!
+  focal_point: center
+  preview_only: no
+  filename: qrm.jpg
+date: 2023-01-26T15:31:26.111Z
+url_slides: null
+publishDate: 2020-10-15T15:35:32-05:00
+url_poster: null
+url_code: null
 ---
