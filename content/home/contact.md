@@ -16,5 +16,7 @@ content:
 design:
   columns: "2"
   background:
-    color: rgba(35, 58, 247, 0.78)
+    color: ""
+    gradient_start: "#b1b8ef"
+    gradient_end: "#253ed7"
 ---
