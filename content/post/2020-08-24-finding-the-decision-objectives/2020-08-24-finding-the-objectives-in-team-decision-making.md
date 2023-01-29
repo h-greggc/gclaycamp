@@ -30,32 +30,11 @@ tags:
 - MCDM
 - Decision analysis
 - Quality Risk Management
+- Strategic Planning
 draft: yes
 authors: []
 bibliography: library-2020-02-05.bib
 ---
-
-<style type="text/css">
-
-  h1{ padding: 0px !important;
-      margin:  0px !important;
-      line-height: 45px;
-      font-size: 45px;
-  }  
-  h2{ padding: 20px !important;
-      margin: 0px !important;
-      line-height: 35px;
-      font-size: 35px;
-  }
-  
-  .myDiv {
-  background-color: lightblue;    
-  text-align: left;
-  padding=10px;
-  line-height: 20px;
-}
-  
-</style>
 
 # 1 Introduction
 
@@ -303,3 +282,4 @@ Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Pred
 </div>
 
 [^1]: I believe this approach is useful in many team decision making settings, although the relative importance of objectives in a hierarchy differs somewhat from the business literature.
+
