@@ -1,7 +1,7 @@
 ---
 widget: contact
 widget_id: recent-changes
-headless: true
+headless: false
 weight: 130
 title: Contact
 subtitle: null

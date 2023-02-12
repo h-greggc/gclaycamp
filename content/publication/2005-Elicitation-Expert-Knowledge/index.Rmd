@@ -30,6 +30,3 @@ url_pdf: "http://www.ipqpubs.com/wp-content/uploads/2015/01/Tran_and-Morgan_micr
 ---
  
 
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).  

@@ -21,7 +21,7 @@ categories:
 - MCDA
 - Decision Analysis
 - Excel
-draft: yes
+draft: false
 ---
 
 ```{r setup, include=FALSE}
