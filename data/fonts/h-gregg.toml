@@ -2,10 +2,11 @@
 name = "h-gregg"
 
 # Optional Google font URL
-google_fonts = "Lora:400,400i|Karla:400,400i,700,700i|DM+Mono"
+# google_fonts = "Lora:400,400i|Karla:400,400i,700,700i|DM+Mono"
+google_fonts = "Monserrat:400,400i,700,700i|Karla:400,400i,700,700i|DM+Mono"
 
 # Font families
-heading_font = "Karla"
-body_font = "Karla"
-nav_font = "Karla"
+heading_font = "Montserrat"
+body_font = "Montserrat"
+nav_font = "Montserrat"
 mono_font = "DM Mono"
