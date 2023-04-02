@@ -1,5 +1,5 @@
 # gclaycamp
-Personal website
+## Personal website 
 
 Built using Wowchemy Academic Modules and deployed using Netlify.com:  
 
