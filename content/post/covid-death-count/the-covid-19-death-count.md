@@ -10,7 +10,7 @@ summary: The media and Covid-19 tracking websites provide us with daily death
   misnformation that Covid-19 is not a significant cause of death. I discuss
   some of the reasons that everyday folk are underwhelmed or unimpressed by the
   scale of the coronavirus pandemic.
-draft: false
+draft: true
 authors:
   - Claycamp
   - Gregg
