@@ -1,31 +1,32 @@
 ---
-title: "Making Sense of Covid-19 Death Tallies"
-author: "Gregg Claycamp"
-date: '2020-12-15'
 output:
   md_document:
     df_print: paged
     toc: true
   pdf_document: default
-subtitle: How can they be more meaningful to the public?
-draft: yes
+summary: The media and Covid-19 tracking websites provide us with daily death
+  counts. To most viewers, the numbers of deaths in the US is already
+  staggering; however, to others the count  is abstract partly because of the
+  misnformation that Covid-19 is not a significant cause of death. I discuss
+  some of the reasons that everyday folk are underwhelmed or unimpressed by the
+  scale of the coronavirus pandemic.
+draft: false
+author: Gregg Claycamp
 slug: covid-19-death-count
-summary: The media and Covid-19 tracking websites provide us with daily death counts.
-  To most viewers, the numbers of deaths in the US is already staggering; however,
-  to others the count  is abstract partly because of the misnformation that Covid-19
-  is not a significant cause of death. I discuss some of the reasons that everyday
-  folk are underwhelmed or unimpressed by the scale of the coronavirus pandemic.
-lastmod: '2020-12-18T09:11:55-05:00'
+lastmod: 2020-12-18T09:11:55-05:00
+header:
+  image: ""
+title: Making Sense of Covid-19 Death Tallies
+subtitle: How can they be more meaningful to the public?
+date: 2020-12-15
 featured: false
+categories:
+  - COVID-19
+  - pandemic
 image:
   caption: featured-flu
   focal_point: BottomLeft
   preview_only: no
-header:
-  image: ''
-categories:
-- COVID-19
-- pandemic
 ---
 ## Death counts don't tell the whole story   
 
