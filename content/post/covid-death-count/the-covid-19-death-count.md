@@ -11,6 +11,9 @@ summary: The media and Covid-19 tracking websites provide us with daily death
   some of the reasons that everyday folk are underwhelmed or unimpressed by the
   scale of the coronavirus pandemic.
 draft: false
+authors:
+  - Claycamp
+  - Gregg
 author: Gregg Claycamp
 slug: covid-19-death-count
 lastmod: 2020-12-18T09:11:55-05:00
