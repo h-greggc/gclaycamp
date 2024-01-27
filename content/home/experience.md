@@ -24,6 +24,17 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Risk and Decision Analysis Consultant"
+  company = "(FDA-retired)"
+  company_url = ""
+  company_logo = ""
+  location = "McKinney, TX"
+  date_start = "2020-06-01"
+  date_end = "" 
+  description =  ""
+
 [[experience]]
   title = "Senior Biomedical Research Scientist"
   company = "US Food and Drug Administration"

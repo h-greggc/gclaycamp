@@ -31,7 +31,7 @@ tags:
 - Decision analysis
 - Quality Risk Management
 - Strategic Planning
-draft: yes
+draft: no
 authors: []
 bibliography: library-2020-02-05.bib
 ---
