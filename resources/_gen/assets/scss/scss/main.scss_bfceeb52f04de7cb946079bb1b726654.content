@@ -7201,14 +7201,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /*************************************************
- *  Wowchemy: The Website Builder for Hugo
+ *  Hugo Blox Builder: The Website Builder for Hugo
  *  Designed by @GeorgeCushen
- *  https://wowchemy.com/
- *  License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md
+ *  https://hugoblox.com/
+ *  License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md
  **************************************************/
-/* Wowchemy Helpers */
+/* Hugo Blox Builder Helpers */
 /*************************************************
- *  Wowchemy's Core Style
+ *  Hugo Blox Builder's Core Style
  **************************************************/
 html {
   font-family: "Roboto", sans-serif;
@@ -7440,7 +7440,7 @@ small,
 .responsive-wrap iframe {
   max-width: 100%; }
 
-/* Wowchemy Elements */
+/* Hugo Blox Builder Elements */
 /*************************************************
  *  Button size override
  *************************************************/
@@ -7950,7 +7950,7 @@ a.badge:hover {
 .dark .tag-cloud a:hover {
   color: #217ee7; }
 
-/* Wowchemy Components */
+/* Hugo Blox Builder Components */
 /*************************************************
  *  Author profile card
  **************************************************/
@@ -9556,7 +9556,7 @@ a.hero-cta-alt:hover {
   z-index: 3; }
 
 /*************************************************
- *  Wowchemy Blocks: Skills
+ *  Hugo Blox: Skills
  **************************************************/
 .skill-group-title {
   display: inline-block;
