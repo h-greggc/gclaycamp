@@ -5,7 +5,7 @@ date: '2014-08-21'
 output:
   blogdown::html_page:
     number_sections: yes
-    toc_depth: 1
+    toc_depth: 2
 categories:
 - Working Paper
 - MCDA
@@ -67,7 +67,7 @@ Stating or identifying the reason for the decision–the objectives–is often t
 
 This general procedure has been slightly adapted for risk-focused prioritization used in projects I either led or facilitated at FDA and NIH (Fig. 1).
 
-<img src="/img/Risk-Focused-Prioritization.png" width="600" /> <font size="3"> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.  
+<img src="Risk-Focused-Prioritization.png" width="600" /> <font size="3"> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.  
 </font>
 
 Most MCDM scholars and practitioners describe an objectives identification and statement process (Keeney 1992, 2012; Harrison 1999; Saaty and Peniwati 2013); however, the term “objectives” might not be used either explicitly or in a definition. For example, Belton and Stewart subsume objectives identification within the process of “problem structuring” (Belton and Stewart 2002). Harrison refers to “managerial objectives” implying that objectives are specified in an organizational top-down manner (Harrison 1999).
