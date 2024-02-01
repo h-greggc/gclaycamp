@@ -24,9 +24,7 @@ featured: false
 url_pdf: "http://www.ipqpubs.com/wp-content/uploads/2015/01/Tran_and-Morgan_micronization1.pdf"
 ---
  
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
+
 
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).  

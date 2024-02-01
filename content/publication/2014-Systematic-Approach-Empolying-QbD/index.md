@@ -25,7 +25,3 @@ url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4309813/pdf/12249_2014_Art
 
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-

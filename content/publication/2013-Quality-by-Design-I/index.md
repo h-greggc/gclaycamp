@@ -17,9 +17,7 @@ featured: true
 url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3513475/pdf/12249_2012_Article_9844.pdf
 
 ---
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
+
 
  
 
