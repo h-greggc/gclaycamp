@@ -10042,3 +10042,9 @@ a > svg.anchor-symbol {
 a > svg.anchor-symbol:hover {
   fill: #06805E;
   transition: fill 0.6s ease; }
+
+code.has-jax {
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%; }

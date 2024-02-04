@@ -47,6 +47,21 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - \\$
+            - \\$
+        enable: true
 related:
   threshold: 80
   includeNewer: true
@@ -62,6 +77,8 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+math: true
 
 build:
   writeStats: true

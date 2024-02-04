@@ -30,6 +30,6 @@ slides: ""
 
 
 
-Recommended Citation
+### Recommended Citation:  
 Claycamp, H Gregg (2023) "A Few Lessons from Facilitating or Leading Risk-Based Decision-Making," Level 3: Vol. 19: Iss. 1, Article 4.
 Available at: https://arrow.tudublin.ie/level3/vol19/iss1/4

@@ -25,6 +25,7 @@ image:
   focal_point: BottomLeft
   preview_only: no
   filename: featured-flu.jpg
+math: true
 ---
   
 {{< toc >}}
@@ -108,17 +109,16 @@ g + geom_bar(stat="identity", width = 0.7, fill="coral2") +
 
 The data reported during and after an outbreak is likely to include the _proportion_ of cases or deaths in the population. Sometimes these proportions are called the "normalized cases (or deaths)." At the simplest level, these proportions are simply the number of cases/deaths divided by the size of the population of concern. Because populations of interest in epidemiology are often large, the ratio is adjusted to the "number of cases/deaths per 100,000 in the population." For example, if we found 200 cases in a population of 250,000 people, the normalized cases are: 
 
-{{< math >}}
-$$
-N^*=\frac{200 \ cases}{250,000 \ people}=0.0008
-$$
-{{< /math >}}
+
+$$ N^*=\frac{200 \ cases}{250,000 \ people}=0.0008 $$
+
+
 This mathematical result, while certainly correct, leaves us with trying to imagine a 0.0008 illness. Thus, we can bring the proportion back to the realm of whole people by multiplying the proportion by 100,000:  
-{{< math >}}
+
 $$
 n^*=0.0008 \ times \ 100000 = 80\ cases \ per \ 100,000 \ people
 $$
-{{< /math >}}
+
 "Normalizing" the case/death counts by population size makes sense for the comparison of the intensity of an outbreak from one administrative boundary to the next. For example, if the administrative boundary is " county" and the example is compared with a second county also having 200 cases of disease but a population size of 1M, then the normalized comparison is 80 versus 20 cases per 100,000. Clearly, the counties that were apparently equal in case counts now are 4-fold different in the normalized case counts.   
 
 ## Higher Order Measures in Outbreaks   
@@ -180,7 +180,7 @@ While it might appear that the fundamental measurements in epidemiology, cases a
 
 In conclusion, I have shown that just a few simplistic comparisons using basic epidemiologic measures can easily dispel the notion that the ongoing COVID-19 pandemic is "just like the annual flu." A deeper dive into the specifics of infectivity, virulence, age-dependency and co-morbidities would take volumes to discuss in even moderate depth. More importantly, the knowledge base on COVID-19 is rapidly evolving due to the efforts of scientists and public health officials to gather and share data. As Dr. [Anthony Fauci](https://www.niaid.nih.gov/about/director) remarked recently, understanding the long-term effects of COVID-19 is a "work in progress."^[[CNN](https://www.cnn.com/world/live-news/coronavirus-pandemic-08-19-20-intl/h_24a802929c742bc3facdb547684b2645)].
 
-<!-- This figure reference now work. Why? 
+<!-- This figure reference now works. Why? 
 ![Case fatality](uscases.png "case fatality in leaf bundle")
 /-->
     
