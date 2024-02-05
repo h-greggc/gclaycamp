@@ -52,13 +52,13 @@ markup:
       passthrough:
         delimiters:
           block:
-          - - \[
-            - \]
+          - - \\[
+            - \\]
           - - $$
             - $$
           inline:
-          - - \(
-            - \)
+          - - \\(
+            - \\)
           - - \\$
             - \\$
         enable: true
@@ -78,7 +78,7 @@ sitemap:
 minify:
   _merge: deep
 
-math: true
+math: false   # load MathJax page-by-page if needed
 
 build:
   writeStats: true
