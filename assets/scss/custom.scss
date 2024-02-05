@@ -10,12 +10,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+	font-weight: 600;
   letter-spacing: 0.04em;
   color: #172A3A;
 }
 h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 /* links */
@@ -37,7 +37,7 @@ a:hover {
   box-shadow: small;
   text-transform: capitalize ;
 	letter-spacing: .1em;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .navbar-brand {

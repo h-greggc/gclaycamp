@@ -79,7 +79,7 @@ sitemap:
 minify:
   _merge: deep
 
-math: false   # load MathJax page-by-page if needed
+math: true   # load MathJax page-by-page if needed
 
 build:
   writeStats: true
