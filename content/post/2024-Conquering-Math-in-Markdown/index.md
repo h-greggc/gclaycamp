@@ -11,7 +11,7 @@ tags: ""
 categories: ""
 
 featured: false
-draft: true
+draft: false
 disable_jquery: false
 
 # Featured image
