@@ -15,6 +15,7 @@ categories:
 - uncertainty
 featured: yes
 toc: yes
+toc_depth: 2
 image:
   caption: '[Photo by Javier Allegue Barros (unsplash.com)](/img/stratplanning-post-it.jpg)'
   focal_point: 

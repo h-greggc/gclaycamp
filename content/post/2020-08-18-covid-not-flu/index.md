@@ -8,6 +8,7 @@ summary: The coronavirus pandemic of COVID-19 is often compared with recent
   disuss some of the striking differences that should get and keep our attention
   for the health of the nation and the globe.
 toc: true
+toc_depth: 2
 author: Gregg Claycamp
 slug: covid-not-flu
 lastmod: 2024-01-28T09:11:55-05:00

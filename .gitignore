@@ -5,6 +5,7 @@
 .DS_Store
 Thumbs.db
 _vendor
+/public
 
 # Local Netlify folder
 # .netlify

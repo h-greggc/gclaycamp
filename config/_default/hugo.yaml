@@ -45,6 +45,9 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+tableOfContents:
+  startLevel: 2
+  endLevel: 3  
 markup:
   _merge: deep
   goldmark:
@@ -59,8 +62,6 @@ markup:
           inline:
           - - \\(
             - \\)
-          - - \\$
-            - \\$
         enable: true
 related:
   threshold: 80
