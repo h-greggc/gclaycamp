@@ -5,7 +5,7 @@ date: '2014-08-21'
 output:
   blogdown::html_page:
     number_sections: yes
-    toc_depth: 2
+    toc_depth: 3
 categories:
 - Working Paper
 - MCDA
@@ -14,15 +14,15 @@ categories:
 - Quality Risk Management
 - uncertainty
 featured: yes
-toc: yes
-toc_depth: 2
+toc: true
+toc_depth: 3
 image:
   caption: '[Photo by Javier Allegue Barros (unsplash.com)](/img/stratplanning-post-it.jpg)'
   focal_point: 
-lastmod: '2021-05-20'
+lastmod: '2024-02-10'
 projects: []
 slug: defining-the-objectives
-subtitle: Original working paper 2014
+subtitle: Original working paper 2014. (Preview of book chapter)
 summary: Teams and individuals need define their decision objectives whenever the
   decision is important for accomplishing the team's goals. That's true for nearly
   all of their decisions!
@@ -32,8 +32,8 @@ tags:
 - Decision analysis
 - Quality Risk Management
 - Strategic Planning
-draft: no
-authors: []
+draft: true
+authors: [admin]
 bibliography: library-2020-02-05.bib
 ---
 
@@ -45,7 +45,7 @@ This post is about the need for working groups and teams to define their decisio
 
 Sometimes weeks or months into a team’s decision making process, debate arises around the meaning of the decision objective(s) possibly stalling the team’s progress. Different perceptions among the team about purpose of the decision creates uncertainty, a poorly formed decision and might even lead to a dysfunctional team process. The team’s growing uncertainty often leads to a request that the decision owner restate her objective(s) to the working group. In other situations, the decision making team might complete their decision-making charge recommendation under a shared misunderstanding of the objectives only to be told that from the decision owner’s perspective, the team answered the *wrong question*! If broken decision making processes occur fre*quently in the organization, there will be a growing list of reluctant volunteers for *ad hoc\* decision making groups. Ultimately, poor processes affect organizational performance and resilience.
 
-> The achievement of objectives is the sole reason for being interested in any decision. (Keeney 1992, 55).
+> The achievement of objectives is the sole reason for being interested in any decision. (Keeney 1992, 2012).
 
 Keeney’s succinct statement or similar statements appear frequently in decades of MCDM literature. Yet I believe that most decision facilitators or coaches will report that a lack of clearly-stated objectives remains a common problem for individual or team decision making. The decision objective(s)–the *reason(s) for the decision*—are sometimes poorly articulated even for critical strategic decisions. In the absence of clear objectives, the MCDM process fails produces disillusion and frustration with formal decision making processes.
 
@@ -73,9 +73,9 @@ This general procedure has been slightly adapted for risk-focused prioritization
 
 Most MCDM scholars and practitioners describe an objectives identification and statement process (Keeney 1992, 2012; Harrison 1999; Saaty and Peniwati 2013); however, the term “objectives” might not be used either explicitly or in a definition. For example, Belton and Stewart subsume objectives identification within the process of “problem structuring” (Belton and Stewart 2002). Harrison refers to “managerial objectives” implying that objectives are specified in an organizational top-down manner (Harrison 1999).
 
-In general, both individuals and organizations have some notion of **strategic objectives** as guides to the individual’s or organization’s decision making from a very general, high-level perspective. For individuals, these might be expressed as “life goals,” while organizations might blend strategic objectives with mission statements. In either case, strategic objectives might not even be written individually or organizationally as an objective. Even if objectives are formalized, the strategic objective level may be too general to guide decision making in any specific situation.
+Keeney writes from the perspective of decision sciences and decision-making situations ranging from the personal (Hammond, Keeney, and Raiffa 2002) to the organizational and societal (Keeney 1992, 2004). Keeney parses objectives into **strategic**, **fundamental** and **means-ends** objectives (Keeney 1992).[^1]
 
-Keeney writes from the perspective of decision sciences and decision-making situations ranging from the personal (Hammond, Keeney, and Raiffa 2002) to the organizational and societal (Keeney 1992, 2004). Keeney parses objectives into strategic, fundamental and means-ends objectives (Keeney 1992).[^1]
+In general, both individuals and organizations have some notion of **strategic objectives** as guides to the individual’s or organization’s decision making from a very general, high-level perspective. For individuals, these might be expressed as “life goals,” while organizations might blend strategic objectives with mission statements. In either case, strategic objectives might not even be written individually or organizationally as an objective. Even if objectives are formalized, the strategic objective level may be too general to guide decision making in any specific situation.
 
 **Fundamental objectives** are the decision-making goals in a narrower context. “A fundamental objective characterizes an essential reason for interest in the decision situation.” (Keeney 1992, 34). In contrast, Keeney’s **means-ends objectives** state the ways in which the goals might be achieved. For example, the fundamental objective of “increase supplier audits by 10%” could have an underlying means-end objectives of “hire more auditing staff” and “contract more third-party auditors.” These “actionable” objectives are means to support the ends of increasing audits.
 
@@ -92,8 +92,7 @@ Harrison’s statement is suited to the idea of strategic objectives. Identifyin
 
 There are decision situations designed to update a decision or prioritization model with new information, criteria or re-scaled judgments and for which the fundamental objectives are well-established and understood by the decision making team. Such is frequently the case in a regulatory environment where the fundamental objective exists within a specific regulation or standard. The discussion about and definition of means-ends objectives helps the decision team focus on how the fundamental objectives are or might be achieved using new ideas, data and procedures.
 
-Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise.
-Often, the urge to produce “tangible results” for an organization shifts the team’s focus to defining means-ends objectives before clearly defining the fundamental objectives.
+Certainly, it is possible to charge a working group with finding the best means-ends objectives for a value-focused decision. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise. Often, the urge to produce “tangible results” (below) for an organization shifts the team’s focus to defining means-ends objectives before clearly defining the fundamental objectives.
 
 # 3 Decision making by teams
 
@@ -158,15 +157,12 @@ The fundamental objectives of the decision capture the reason(s) we are deciding
 
 # 5 Pressure to Produce Tangible Results
 
+Monographs and presentations on MCDM by teams give scant attention to the decision _ownership_ and to whether or not the decision-making team is _empowered to decide_. It is possible that overarching goals of the organization or its senior leadership can create pressure to produce tangible results. This might tilt the teams casting of objectives in favor of those that can be tied directly to tactical objectives. Strategic planners see these as favoring strategic objectives that can be easily measured as opposed to emphasis on strategic objectives that are hard to measure. Decision making teams should consider whether or not they are influenced by the need to show success by "counting widgets" rather than evidences of accomplishing the objectives overall.    
+
 # 6 Structured Approaches?
 
 When Keeney wrote the paragraph (above) in 1992, he was correct in noting the lack of structured approaches for thinking critically through multicriteria decisions. Two decades later, we have witnessed an exponential growth in research and application of multicriteria decision analysis (MCDA) of which Keeney’s “value-focused thinking” is one of the “best practices.” There are numerous examples of MCDA from the government and industry health care that translate efficiently to processes accessible to scientists and clinicians. The structured approaches are now available, and all that remains is the will to implement them. The will to implement MCDA will come from the realization that decision making is an acquired skill based on fundamental decision theory and practice. Better decisions come from practicing the learned skills. (Keeney 2004).
 
-SAVED: Keeney ((Keeney 2004)) offers several explanations for this predicament, including:
-
--   decision makers do not understand their objectives well
--   decision makers are routinely under time pressure to produce tangible results
--   lack of structured approaches to promote systematic and deep thinking about objectives.
 
 NOTES—————— (Ley-Borrás 2015) in Abstract p.) States that
 
@@ -174,7 +170,7 @@ NOTES—————— (Ley-Borrás 2015) in Abstract p.) States that
 
 In practice, it is common that specific decision situation are not selected.p46
 
-> Individuals and decision teams tend to react to problems and opportunities by searching for a “solution” without questioning the initial perception or formulation of the decision situation. This easily leads to deciding about visible consequences instead of underlying causes; to deciding with a narrow scope that misses important elements;to deciding on an overly broad issue causing important elements to not receive proper attention for lack of time or resources; to deciding on an issue attending only to short-term effects when long-term results are very important; and, in general, to missing the opportunity of analyzing valuable alternative decision situations. p. 46
+> Individuals and decision teams tend to react to problems and opportunities by searching for a “solution” without questioning the initial perception or formulation of the decision situation. This easily leads to deciding about visible consequences instead of underlying causes; to deciding with a narrow scope that misses important elements; to deciding on an overly broad issue causing important elements to not receive proper attention for lack of time or resources; to deciding on an issue attending only to short-term effects when long-term results are very important; and, in general, to missing the opportunity of analyzing valuable alternative decision situations. p. 46
 
 It should come as no surprise that a group of experts who are diverse in their training and experience perceive stated objectives differently. For nearly a century psychologists, decision scientists and economists have studied the inevitable intrusion of our subjective, perceiving minds into what is optimistically believed to be an objective decision making process (Kahneman 2011; Sunstein et al. 2002; Ariely 2009; Kahneman, Slovic, and Tversky 1982). Internal processing of decision objectives is so individualized that individuals have trouble analyzing other perceptions among the the group. After a career’s worth of troubleshooting complex decisions and scholarship in decision analysis, Ralph Keeney recently recommend that groups not work through objectives and preference together until group members have defined the problem individually (Keeney 2013).
 
