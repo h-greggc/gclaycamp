@@ -1,35 +1,21 @@
----   
-# Documentation-- https://sourcethemes.com/academic/docs/managing-content/
-
+---
+summary: Some markdown that works sometimes
+draft: false
+authors: ""
+math: true
+lastmod: 2024-02-05T11:57:54-06:00
+date: 2024-02-05T11:57:54-06:00
+featured: false
+disable_jquery: false
 title: Conquering Math in Markdown \( y=x^2\\\)
 subtitle: ""
-summary: ""
-authors: ""
-date: 2024-02-05T11:57:54-06:00
-lastmod: 2024-02-05T11:57:54-06:00
 tags: ""
 categories: ""
-
-featured: false
-draft: false
-disable_jquery: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+projects: ""
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: ""
-
-math: true
 ---
 
 # The title markdown: 
